@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>      
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header" runat="server">
+        <center><a href="Default.aspx"><img src="logo.png" style="height: 131px" /></a></center>
+        
+    </div>
+    
+       <div id="menu" runat="server">
+           <ul style="height: 79px">
+               <li><a href="aboutus.aspx">ABOUT US</a></li>
+                <li><a href="departments.aspx">DEPARTMENTS</a></li>
+                <li><a href="campus.aspx">CAMPUS</a>
+                    <ul>
+                        <li><a href="aboutus.aspx">ABOUT US</a></li>
+                <li><a href="departments.aspx">DEPARTMENTS</a></li>
+                <li><a href="campus.aspx">CAMPUS</a>
+
+                </li>
+                 <li><a href="Differentiators.aspx">DIFFERENTIATORS</a></li>
+                 <li><a href="PLACEMENTS.aspx">PLACEMENTS</a></li>
+                    </ul>
+                </li>
+                 <li><a href="Differentiators.aspx">DIFFERENTIATORS</a></li>
+                 <li><a href="PLACEMENTS.aspx">PLACEMENTS</a></li>    
+                 <li><a href="contactus.aspx">CONTACT US</a></li>
+           </ul>
+        </div>
+        <div id="content" runat="server">
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        <p style="height: 27px">
+        </p>
+        
+        </asp:ContentPlaceHolder>
+            
+        </div> 
+        <div id="ad" runat="server">
+            <ul>
+                <li><a href="aboutsociety.aspx">About Society(SVES)</a></li>
+                <li><a href="ecap.aspx">E Cap</a></li>
+                <li><a href="anjani.aspx">Anjani Powder Research</a></li>
+                <li><a href="library.aspx">Library</a></li>
+                <li><a href="bigbyte.aspx">Big Byte –Food Court</a></li>
+                <li><a href="boat.aspx">Boat Club</a></li>
+                <li><a href="canteen.aspx">Canteen</a></li>
+                <li><a href="sports.aspx">Sports and Fitness</a></li>
+                <li><a href="student.aspx">Student Life @ BVRIT</a></li>
+                <li><a href="transport.aspx">Transport</a></li>
+                <li><a href="wellness.aspx">Wellness Centre</a></li>
+            </ul>
+        </div>
+    
+        <div id="footer" runat="server">
+            <div id="one" runat="server">
+                <ul>
+                    <li><b>&nbsp;footer menu</b></li>
+                    <li><a href="bcat.aspx">B Category Details</a></li>
+                    <li><a href="alumni.aspx">Alumni</a></li>
+                    <li><a href="trans.aspx">Transport</a></li>
+                 </ul>
+             
+            </div>
+            <div id="two" runat="server">
+                <ul>
+                    <li><b>ENGINEERING SCIENCES</b></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="default.aspx">BVRITN</a></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://svecw.edu.in/" target="_blank">SVECW</a></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://bvrithyderabad.edu.in/" target="_blank">BVRITH</a></li>
+                 </ul>
+
+            </div>
+            <div id="three" runat="server">
+                <ul>
+                    <li><b>MEDICAl SCIENCES</b></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://vdc.edu.in/" target="_blank">VDC</a></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://svcp.edu.in/" target="_blank">SVCP</a></li>
+                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://viper.ac.in/" target="_blank">VIPER</a></li>
+                 </ul>
+
+            </div>
+            
+         </div>
+            
+    </form>
+</body>
+</html>

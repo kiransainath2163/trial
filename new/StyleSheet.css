@@ -1,0 +1,144 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1053px;
+    background-image: url('pattern.jpg');
+    
+}
+*{
+    margin:0px 1px 0px 0px;
+    padding:0px;
+}
+#header {
+    height: 137px;
+    width: 100%;
+    
+}
+#menu{
+    height:auto;
+    width:100%;
+    margin-left:60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;    
+}
+#menu ul li a:hover{
+    background-color:#0094ff;
+    display:block;
+    color:aliceblue;
+}
+#menu ul li{
+    height:40px;
+    width:197px;
+    float:left;
+    line-height:40px;
+    list-style:none;
+    text-align:center;
+    background-color:#b6ff00;
+    border:solid 1px #fff;
+    
+    
+
+}
+#menu ul li > ul li{
+    display:none;
+}
+#menu ul li a{
+    color:#ff6a00;
+    text-decoration:none;
+    display:block;
+    
+}
+#content{
+    height:auto;
+    width:778px;
+    float:left;
+    margin-left:60px;
+    margin-top: 0px; 
+    font-size:18px;
+    margin-bottom:100px;
+}
+#ad{
+    
+    height:697px;
+    width:244px;
+   float:right;
+   margin-top:0px;
+   margin-right:100px;
+}
+#footer{
+    clear:both;
+    
+}
+#ad ul li{
+    list-style:none;
+    height:57px;
+    width:auto;
+    text-align:center;
+    line-height:57px;
+    background-color:#61d433;
+    border:solid 2px #fff;
+   
+}
+#ad ul li a{
+text-decoration:none;
+font-size:20px;
+display:block;
+
+}
+
+#ad ul li a:hover{
+    color:#fff;
+    background-color:brown;
+    display:block;
+}
+#footer{
+    background-color:#c3b6b6;
+    height: 174px;
+    margin-left:35px;
+    margin-right:20px;
+    width: 1223px;
+    margin-top:50px;
+    font-size:13px;
+}
+#one{
+    float:left;
+}
+#one ul li{
+    padding-top:20px;
+    padding-left:110px;
+    list-style:none;
+    width:273px;
+}
+#one ul li a{
+    text-decoration:none;
+    color:#161313;
+}
+#two{
+    float:left;
+}
+#two ul li{
+    padding-top: 20px;
+    padding-left: 110px;
+    list-style: none;
+    width: 244px;
+}
+#two ul li a{
+    text-decoration: none;
+    color: #161313;
+}
+#two {
+    float: left;
+}
+
+#three ul li {
+   padding-top: 20px;
+   padding-left: 110px;
+   list-style: none;
+   width: 199px;
+}
+#three ul li a {
+     text-decoration: none;
+     color: #161313;
+}
+#three {
+    float: left;
+}
